@@ -225,4 +225,3 @@ def function10(*args,**kwargs):
     sumKeyword = sum(kwargs.values())
     return sumKeyword - sumPositional
 
-        
