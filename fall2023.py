@@ -1,4 +1,4 @@
-# function1 (1 point)
+
 # ● The function name: function1
 # ● This function takes three positional arguments
 # ○ First argument: int type
@@ -14,7 +14,7 @@
 def function1(x : int, y : int, z : int)->int:
     return x + y + z
 
-# function2 (1 point)
+
 # ● The function name: function2
 # ● This function takes one positional argument: list type (all elements are int types)
 # ● The return value: int type
@@ -36,7 +36,7 @@ def function2(x : list)->int:
     return temp
 
 
-# function3 (1 point)
+
 # ● The function name: function3
 # ● This function takes one positional argument: list type (all elements are int types)
 # ○ There is no duplicated number.
@@ -60,7 +60,6 @@ def function3(x : list)->int:
     return largest
 
 
-# function4 (1 points)
 # ● The function name: function4
 # ● This function takes one positional argument: str type
 # ○ The length of the argument is greater than 2.
@@ -78,7 +77,7 @@ def function4(x : str)->str:
     realStr = temp[::-1]
     return realStr
 
-# function5 (1 points)
+
 # ● The function name: function5
 # ● This function takes one positional arguments: str type
 # ○ The argument includes at least one numeric letter.
@@ -102,7 +101,7 @@ def function5(x : str)->str:
     return ans
 
 
-# function6 (1 point)
+
 # ● The function name: function6
 # ● This function takes two positional arguments
 # ○ The first argument: int type (greater than 1 and smaller than 1000)
@@ -144,7 +143,7 @@ def function6(x : int, y : int)->set:
 # print(function7({"math": 90, "english": 25, "korean": 30}))
 
 
-# function8 (1 points)
+
 # ● The function name: function8
 # ● This function takes one positional argument: list type (all elements are int types)
 # ○ There is at least one element in the given list.
@@ -164,7 +163,6 @@ def function8(x):
             return i
 
 
-# function9 (1 points)
 # ● The function name: function9
 # ● This function takes two or three positional argument: all arguments are int types
 # ● The return value: int type
@@ -182,7 +180,6 @@ def function9(*x):
         return sum(x)
 
 
-# function10 (1 points)
 # ● The function name: function10
 # ● This function takes the unknown number of positional or keyword arguments.
 # ○ All arguments’ values are int types.
