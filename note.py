@@ -57,32 +57,32 @@ b = 5
 print(id(a))
 print(id(b))
 
-L1 = [1,2,3,4]
-L2 = [1,2,3,4]
-print(id(L1) == id(L2))   # False
+l1 = [1,2,3,4]
+l2 = [1,2,3,4]
+print(id(l1) == id(l2))   # False
 
-L3 = L1.copy()
-print(id(L1) == id(L3))   # True 
+l3 = l1.copy()
+print(id(l1) == id(l3))   # True 
 
-L4 = L1
-print(id(L1) == id(L4))   # False
+l4 = l1
+print(id(l1) == id(l4))   # False
 
-L5 = L1[:]
-print(id(L1) == id(L5))   # False
+l5 = l1[:]
+print(id(l1) == id(l5))   # False
 
 import copy
-L6 = copy.deepcopy(L1)
-print(id(L1) == id(L6))   # False
+l6 = copy.deepcopy(l1)
+print(id(l1) == id(l6))   # False
 
 # List 
 # Difference between str and List is str object does not support item assignment, but List does
-A = "hello"
-A[0] = A[0].lower()
-print(A)
+a = "hello"
+a[0] = a[0].lower()
+print(a)
 
-L = ["H","E","L","L","O"]
-L[0] = L[0].lower()
-print(L)
+l = ["H","E","L","L","O"]
+l[0] = l[0].lower()
+print(l)
 
 Iterable items can be use loop their variable name 
 1. Lists
@@ -94,7 +94,7 @@ Iterable items can be use loop their variable name
 # But String is iterable so we can use loop on string 
 a = "HELLO"
 for i in a:
-    print()
+    print(a)
 
 Non-iterable are 
 1. int
