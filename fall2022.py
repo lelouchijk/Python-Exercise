@@ -1,4 +1,4 @@
-# function01 (1 point)
+
 # ● The function name: function01
 # ● This function takes two positional arguments
 # ○ First argument: int type
@@ -14,7 +14,7 @@ def function1(x : int,y : int)->int:
     return x + y
 
 
-# function02 (1 point)
+
 # ● The function name: function02
 # ● This function takes one positional argument
 # ○ a list or tuple which has only int type elements
@@ -30,7 +30,7 @@ def function2(x):
     else:
         return sum(x)
 
-# function03 (2 points)
+
 # ● The function name: function03
 # ● This function takes two positional arguments
 # ○ First argument: int type
@@ -45,7 +45,7 @@ def function3(x : int,y : int):
     return sum(range(x+1,y))
 
 
-# function04 (2 points)
+
 # ● The function name: function04
 # ● This function takes one positional argument
 # ○ a list or tuple which has only int type elements
@@ -66,7 +66,7 @@ def function4(x):
     return total
 
 
-# function05 (2 points)
+
 # ● The function name: function05
 # ● This function takes one positional argument
 # ○ str type (a length of the argument is greater than 1. All the characters are
@@ -82,7 +82,7 @@ def function4(x):
 def function5(x):
     return x.capitalize()
         
-# function06 (2 points)
+
 # ● The function name: function06
 # ● This function takes one positional argument
 # ○ str type (the length of this argument is greater than 1. All the characters are
@@ -104,7 +104,6 @@ def function6(x):
         return False
 
 
-# function07 (2 points)
 # ● The function name: function07
 # ● This function takes one positional argument
 # ○ a list or tuple which has only int type elements
@@ -122,7 +121,7 @@ def function7(x):
     return sum(uniqueNum)
         
 
-# function08 (2 points)
+
 # ● The function name: function08
 # ● This function takes the unknown number of positional arguments
 # ○ all arguments are int type
@@ -142,7 +141,7 @@ def function8(*x):
     return total
 
 
-# function09 (3 points)
+
 # ● The function name: function09
 # ● This function takes the unknown number of positional or keyword arguments
 # ○ All arguments are int type
@@ -161,7 +160,6 @@ def function9(*positional,**kwargs):
     return -1
 
 
-# function10 (3 points)
 # ● The function name: function10
 # ● This function takes one positional argument
 # ○ int type (positive integer)
