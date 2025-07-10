@@ -1,4 +1,4 @@
-# function1 (1 point)
+
 # ● The function name: function1
 # ● This function takes two positional arguments
 # ○ First argument: int type
@@ -14,7 +14,7 @@
 def function1(x : int,y : int)->int:
     return x-y
 
-# function2 (1 point)
+
 # ● The function name: function2
 # ● This function takes two positional arguments
 # ○ First argument: int type
@@ -36,7 +36,7 @@ def function2(x : int,y : int)->int:
     return abs(z)
 
 
-# function3 (1 point)
+
 # ● The function name: function3
 # ● This function takes two positional arguments
 # ○ First argument: int type
@@ -60,7 +60,7 @@ def function3(x : int,y : list)->int:
     return count
 
 
-# function4 (1 points)
+
 # ● The function name: function4
 # ● This function takes one positional arguments
 # ○ Only one argument: str type (consisting of only alphabetic characters with a
@@ -89,7 +89,6 @@ def function4(x : str)->bool:
 
 
 
-# function5 (1 points)
 # Using the concept of the Pythagorean equation a2+b2=c2, let's create a function that checks if the given three side lengths of a triangle satisfy the Pythagorean theorem.
 # ● The function name: function5
 # ● This function takes three positional arguments
@@ -110,7 +109,7 @@ def function4(x : str)->bool:
 def function5(x : int, y : int, z : int)->bool:
     return x**2 == y**2 + z**2 or y**2 == x**2 + z**2 or z**2 == x**2+y**2
 
-# function6 (1 point)
+
 # ● The function name: function6
 # ● This function takes one positional arguments: int type (greater than or equal to 1)
 # ● The return value: int type
@@ -132,7 +131,7 @@ def function6(x : int)->int:
     return total
 
 
-# function7 (1 points)
+
 # ● The function name: function7
 # ● This function takes one positional arguments: int type (greater than or equal to 2)
 # ● The return value: bool type
@@ -154,7 +153,7 @@ def function7(num: int)->bool:
             return False
     return True
 
-# function8 (1 points)
+
 # ● The function name: function8
 # ● This function takes one positional argument: str type (consisting of only alphabetic characters with a length of 2 or more)
 # ○ Given the string, only one alphabet appears twice, but the other numbers appear once (case insensitive)
@@ -175,7 +174,7 @@ def function8(variable : str)->str:
         duplicate.add(i)
 
 
-# function9 (1 points)
+
 # ● The function name: function9
 # ● This function takes the unknown number of positional arguments: int types
 # ● The return value: int type
@@ -204,7 +203,7 @@ def function9(*x):
     return total
         
 
-# function10 (1 points)
+
 # ● The function name: function10
 # ● This function takes the unknown number of positional or keyword arguments.
 # ○ All arguments are int types
